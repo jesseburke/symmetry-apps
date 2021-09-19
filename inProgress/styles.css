@@ -1,0 +1,104 @@
+.done-link {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 1.25em;
+}
+
+.bottom-row {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    font-size: 1.25em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.reflection-box {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    border: 2px;
+    border-style: solid;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    font-size: 1.25em;
+    user-select: none;
+    color: black;
+}
+
+.top-line-reflection-box {
+    padding: .75em 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.small-margin {
+    margin: .25em;
+}
+
+.med-margin {
+    margin: .5em;
+}
+
+.lnkt {
+    padding: .25em 1em;
+    border: 2px;
+    border-style: solid;
+    border-radius: .35em;
+    margin: 0;
+    width: 10em;
+    text-align: center;
+    user-select: none;
+    text-decoration: none;
+    color: black;
+}
+
+.choose-line {
+    position: absolute;
+    bottom: 5%;
+    left: 38%;
+    font-size: 1.25em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.solver-box-left {
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    font-size: 1.75em;
+    padding: .5em;
+    user-select: none;
+}
+
+.solver-box-right {
+    position: absolute;
+    bottom: 7%;
+    left: 85%;
+    font-size: 1.75em;
+    padding: .5em;
+    user-select: none;
+}
+
+.no-outline {    
+    outline: none;
+}
+
+.container {    
+    position: absolute;
+    outline: 'none';
+    display: 'block';
+}
+
