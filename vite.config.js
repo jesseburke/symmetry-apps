@@ -7,23 +7,23 @@ export default defineConfig({
     build: {
         rollupOptions: {
             input: {
-                FreeDraw: resolve(__dirname, 'public_pages/freeDraw/index.html'),
-                FreeDrawReflection: resolve(
+                freeDraw: resolve(__dirname, 'public_pages/freeDraw/index.html'),
+                freeDrawReflection: resolve(
                     __dirname,
                     'public_pages/freeDrawReflection/index.html'
                 ),
-                FreeDrawRotation: resolve(__dirname, 'public_pages/freeDrawRotation/index.html'),
-                FreeDrawTranslation: resolve(
+                freeDrawRotation: resolve(__dirname, 'public_pages/freeDrawRotation/index.html'),
+                freeDrawTranslation: resolve(
                     __dirname,
                     'public_pages/freeDrawTranslation/index.html'
                 ),
-                GraphDraw: resolve(__dirname, 'public_pages/graphDraw/index.html'),
-                GraphDrawReflection: resolve(
+                graphDraw: resolve(__dirname, 'public_pages/graphDraw/index.html'),
+                graphDrawReflection: resolve(
                     __dirname,
                     'public_pages/graphDrawReflection/index.html'
                 ),
-                GraphDrawRotation: resolve(__dirname, 'public_pages/graphDrawRotation/index.html'),
-                GraphDrawTranslation: resolve(
+                graphDrawRotation: resolve(__dirname, 'public_pages/graphDrawRotation/index.html'),
+                graphDrawTranslation: resolve(
                     __dirname,
                     'public_pages/graphDrawTranslation/index.html'
                 )
